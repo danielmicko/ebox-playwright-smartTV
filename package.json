@@ -1,0 +1,25 @@
+{
+  "name": "suite.st-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "playwright": "^1.53.0",
+    "playwright-core": "^1.53.0",
+    "suitest-js-api": "^3.21.0",
+    "undici-types": "^7.8.0"
+  }
+}
