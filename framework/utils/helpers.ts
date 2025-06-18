@@ -1,5 +1,4 @@
 import { activeEnv } from '../../playwright.config';
-import suitest from "suitest-js-api";
 
 export function getSelector(selectors: Record<string, Record<string, string>>, name: string): string {
     const entry = selectors[name];
@@ -11,5 +10,3 @@ export function getSelector(selectors: Record<string, Record<string, string>>, n
 
     return selector;
 }
-
-export const el = (selector: string) => suitest.element(selector);
