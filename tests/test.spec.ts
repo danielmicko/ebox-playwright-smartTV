@@ -2,10 +2,12 @@ import {test} from '../framework/fixture';
 import {assert, PROP, VRC} from 'suitest-js-api';
 
 test('test', async ({suitest}) => {
+    await assert.openApp();
+
     /**
      * Wait for Oneplay to be up
      */
-    await assert.element(suitest.loginPage.continueButton).visible().timeout(20000)
+    await assert.element(suitest.loginPage.continueButton).visible().timeout(30000)
 
     /**
      * Select preprod1
